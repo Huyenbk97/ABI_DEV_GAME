@@ -26,7 +26,7 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
       
-        Debug.DrawRay(transform.position, direction * maxDistance, Color.red);
+        
         if (canMove)
         {
          
